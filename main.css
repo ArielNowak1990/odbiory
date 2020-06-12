@@ -1,0 +1,302 @@
+        /*<![CDATA[*/
+        /*WPROWADZENIE CSS DO CAŁEGO DOKUMENTU*/
+
+        body {
+            margin: 0px;
+            background-image: url('images/tlo.jpg');
+            background-attachment: fixed;
+            
+        }
+
+        #calosc {
+            display: flex;
+            flex-wrap: wrap;
+            width: 1200px;
+            height: auto;
+            position: relative;
+            margin: 20px auto;
+            opacity: 1;
+
+        }
+
+        #banner {
+            width: 1180px;
+            height: 150px;
+
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #menu_glowne {
+            width: 1180px;
+            height: 3.5em;
+            display: inline-block;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+        }
+
+        #middle {
+            width: 1180px;
+            height: auto;
+
+            display: flex;
+        }
+
+        #stopka {
+            width: 1180px;
+            height: 150px;
+
+        }
+
+        #menu_boczne {
+            width: 0%;
+            height: auto;
+
+        }
+
+        #tresc_glowna {
+            width: 85%;
+            height: auto;
+
+        }
+        .chmura {
+            display: block;
+            width: auto;
+            height: auto;
+            border: 1px solid green;
+            background-color: seashell;
+            border-radius: 25px;
+            margin-top: 25px;
+            opacity: 0.85;
+            padding: 10px;
+        }
+        .chmura p{
+            margin-left: 15px;
+            margin-right: 15px;
+            text-align: justify;
+        }
+
+        .chmura_pracownik{
+            display: flex;
+            flex-wrap: wrap;
+            width: auto;
+            height: auto;
+            border: 1px solid green;
+            background-color: seashell;
+            border-radius: 25px;
+            margin-top: 25px;
+            opacity: 0.85;
+            padding: 10px;
+        }
+        .chmura_pracownik1 {
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+
+        }
+        .chmura_pracownik2{
+            width: 70%;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            
+        }
+        .chmura_pracownik3{
+            width: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            
+        }
+        .chmura_pracownik p{
+            margin-left: 15px;
+            margin-right: 15px;
+            text-align: justify;
+        }
+        .chmura_podpis {
+            width: 350px;
+            height: 150px;
+            background-color: seashell;
+            border-radius: 75px;
+            text-align: center;
+            border: 1px solid green;
+        }
+        #reklamy {
+            width: 15%;
+            height: auto;
+            display: block;
+            border: 1px solid green;
+            background-color: seashell;
+            border-radius: 25px;
+            opacity: 0.85;
+            margin-left: 20px;
+            margin-top: 25px;
+            padding: 10px;
+            text-align: justify;
+        }
+
+        .logo {
+            border: 4px solid green;  
+        }
+
+        .kontakt {
+            border: 4px solid green;
+            padding: 5px;
+            background-color: seashell;
+            border-radius: 25px;
+            
+        }
+        .kontakt a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .shop {
+            border: 4px solid green;
+            height: 146px;
+            width: 250px;
+            background-color: seashell;
+            border-radius: 25px;
+            text-align: center;
+            padding-top: 10px;
+            box-sizing: border-box;
+        }
+
+        .menu_1_poziom li {
+            display: none;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .menu_1_poziom:hover li {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            position: relative;
+            background-color: seashell;
+            z-index: 2;
+            border-radius: 25px;
+            border: 4px solid green;
+        }
+
+        .menu_1_poziom {
+            text-transform: uppercase;
+            background-color: seashell;
+            padding: 20px;
+            border: 2px solid green;
+            border-radius: 25px;
+        }
+
+        #tresc_glowna a,
+        #menu_glowne a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        #tresc_glowna a:hover,
+        #menu_glowne a:hover {
+            background-color: black;
+            color: aliceblue;
+            display: block;
+        }
+        #tresc_glowna h1 {
+            text-align: center;
+        }
+        .chmura_koniec {
+            display: block;
+            width: 100%;
+            height: auto;
+            border: 1px solid green;
+            background-color: seashell;
+            border-radius: 25px;
+            margin-bottom: 25px;
+            margin-top: 35px;
+            opacity: 0.85;
+            padding: 30px;
+        }
+        #tresc_glowna {
+            line-height: 1.5em;
+        }
+        #promka{
+            line-height: 2em;
+            font-size: 1.5em;
+            color: red;
+            background-color: yellow;
+        }
+        .inwestycje
+        {
+            text-align: right;
+            position: relative;
+            width: 350px;
+            height: auto;
+            left: -25px;
+            background-color: rgb(14, 175, 41);
+            display: block;
+            padding: 15px;
+            border-radius: 15px;
+            font-size: 1.1em;
+        }
+        .teb
+        {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 85px;
+        }
+        .chmura_inwestycje {
+            display: block;
+            width: auto;
+            height: auto;
+            border: 1px solid green;
+            background-color: seashell;
+            border-radius: 25px;
+            margin-top: 25px;
+            opacity: 1;
+            padding: 10px;
+        }
+        .chmura_inwestycje p{
+            margin-left: 15px;
+            margin-right: 15px;
+            text-align: justify;
+        }
+        .ciekawostkan
+        {
+            
+            width: 350px;
+            height: 350px;
+            position: relative;
+            margin-left: 550px;
+            
+        }
+         .ciekawostka2n
+        {
+            
+            width: 350px;
+            height: 350px;
+            position: relative;
+            margin-left: 150px;
+        }
+        .ctext
+        {
+            background-color: green;
+            color: white;
+            text-align: center;
+            line-height: 1.5em;
+            border: 5px solid green;
+            border-radius: 40px 0px 40px 0px;
+        }
+        .ciekawostkan img
+        {
+            position: absolute;
+            margin: 10px 80px;
+            
+        }
+         .ciekawostka2n img
+        {
+            position: absolute;
+            margin: 10px 80px;
+            
+        }
